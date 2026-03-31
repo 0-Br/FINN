@@ -1,0 +1,8 @@
+{
+    "name": "Test",
+    "model_type": "UNet",
+    "problem_type": "regression",
+
+    "base_channel": 64,
+    "eps": 1e-12
+}

@@ -1,0 +1,13 @@
+# Data (stored externally)
+data/background/
+data/flood/
+
+# Results
+results/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/

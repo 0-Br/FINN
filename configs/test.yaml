@@ -1,0 +1,13 @@
+data_dir: "/mnt/wsl/hdd/Database/odense_flood"
+save_dir: "./results/test"
+
+precision: 32
+devices: [0]
+num_workers: 4
+batch_size: 8
+
+pretrained_model: ~
+num_training_steps: 20000
+num_warming_steps: 200
+lr: 5e-6
+es_patience: 5
