@@ -1,9 +1,44 @@
-# Results
+# 训练输出
 results/
 
-# Python
+# Python 编译产物
 __pycache__/
 *.pyc
 
-# IDE
+# LaTeX 编译中间文件
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.ent
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.lof
+*.lot
+*.idx
+*.ilg
+*.ind
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.spl
+
+# 系统文件
+.DS_Store
+._*
+Thumbs.db
+
+# 编辑器与 IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+\#*\#
