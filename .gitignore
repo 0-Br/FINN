@@ -1,9 +1,13 @@
-# 训练输出
+# 项目生成文件
 results/
 
 # Python 编译产物
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
 
 # LaTeX 编译中间文件
 *.aux
