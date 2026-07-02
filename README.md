@@ -2,7 +2,7 @@
 
 基于物理信息神经网络的城市内涝水深预测 / Physics-Informed Neural Networks for Urban Flood Water Depth Prediction
 
-## 概述 / Overview
+## 简介 / Introduction
 
 城市内涝是一种常见且危害严重的自然灾害。FINN（Flood-Informed Neural Networks）将 U-Net、GAN 架构与水力学物理约束相结合，用于预测城市暴雨内涝场景下的水深空间分布。与传统数值模拟模型（如 MIKE21）相比，FINN 在保持较高预测质量的同时显著降低了计算成本，可作为代理模型部署于洪水防控工作中。
 
