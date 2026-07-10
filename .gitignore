@@ -3,11 +3,22 @@ results/
 
 # Python 编译产物
 __pycache__/
-*.py[cod]
-*.egg-info/
-dist/
+*.pyc
+
+# 工具缓存
+.pytest_cache/
+.ruff_cache/
+
+# 打包产物
 build/
-*.egg
+dist/
+*.egg-info/
+
+# 就地虚拟环境（uv 等工具创建）
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
 
 # LaTeX 编译中间文件
 *.aux
@@ -33,6 +44,11 @@ build/
 *.vrb
 *.xdv
 *.spl
+*-blx.bib
+
+# 敏感信息（密钥、凭据类一律忽略；需保留模板文件时用 ! 例外）
+.env
+.env.*
 
 # 系统文件
 .DS_Store
