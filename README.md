@@ -1,6 +1,8 @@
-# FINN: Flood-Informed Neural Networks
+# FINN
 
-基于物理信息神经网络的城市内涝水深预测 / Physics-Informed Neural Networks for Urban Flood Water Depth Prediction
+**基于物理信息神经网络的城市内涝水深预测 | Physics-Informed Neural Networks for Urban Flood Water Depth Prediction**
+
+> FINN = Flood-Informed Neural Networks
 
 ## 简介 / Introduction
 
@@ -25,7 +27,7 @@ Data is not included in this repository. Training data should be placed at the p
 └── flood/         # 洪涝事件数据 / flood event data
 ```
 
-## 模型架构 / Model Architecture
+## 方法 / Method
 
 | 模型 / Model | 说明 / Description |
 |---|---|
@@ -80,3 +82,9 @@ python train.py --config="./configs/test.yaml" --model="PINN" --version="test"
 ## 作者 / Authors
 
 张景皓、钱昱诚、刘怀川、刘滨瑞 (Jinghao Zhang, Yucheng Qian, Huaichuan Liu, Binrui Liu)，清华大学 / Tsinghua University
+
+## 声明
+
+本项目仅供学习交流参考，请勿直接复制用于课程作业提交。
+
+<!-- 课程名待补：本项目为清华大学《XX》课程研究项目 -->
