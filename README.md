@@ -33,7 +33,7 @@ Data is not included in this repository. Training data should be placed at the p
 |---|---|
 | **UNet** | 基线模型。编码器提取地形空间特征，降雨特征经线性层融合后注入瓶颈层，解码器输出水深预测 / Baseline. Encoder extracts spatial topographic features; rainfall features are fused via linear layers into the bottleneck; decoder outputs water depth predictions |
 | **PI-UNet** | 在 UNet 基础上引入物理约束损失：水量守恒惩罚项 + 空间连续性惩罚项 / UNet with physics-informed loss: mass conservation penalty + spatial continuity penalty |
-| **UNet-GAN** | 将 UNet 作为生成器，配合判别器进行对抗训练，提升水深分布的空间真实性 / UNet as generator with adversarial training via a discriminator to improve spatial realism of predicted depth distributions |
+| **UNet-GAN** | 将 UNet 作为生成器，配合判别器进行对抗训练，提升水深分布的空间真实性（该部分代码未并入本仓，详见 `report/`）/ UNet as generator with adversarial training via a discriminator to improve spatial realism (code not included in this repo; see `report/`) |
 
 ## 项目结构 / Project Structure
 
@@ -76,6 +76,7 @@ python train.py --config="./configs/test.yaml" --model="PINN" --version="test"
 
 - Python 3
 - PyTorch + PyTorch Lightning
+- transformers
 - NumPy, scikit-learn
 - OmegaConf
 
@@ -85,6 +86,4 @@ python train.py --config="./configs/test.yaml" --model="PINN" --version="test"
 
 ## 声明
 
-本项目仅供学习交流参考，请勿直接复制用于课程作业提交。
-
-<!-- 课程名待补：本项目为清华大学《XX》课程研究项目 -->
+本项目为清华大学刘昭伟老师《水力学与水环境》课程研究项目，仅供学习交流参考，请勿直接复制用于课程作业提交。
