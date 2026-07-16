@@ -1,6 +1,6 @@
 # FINN
 
-**基于物理信息神经网络的城市内涝水深预测 | Physics-Informed Neural Networks for Urban Flood Water Depth Prediction**
+**基于物理信息神经网络的城市内涝水深预测 | Flood-Informed Neural Networks for Urban Flood Water Depth Prediction**
 
 > FINN = Flood-Informed Neural Networks
 
