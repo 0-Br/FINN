@@ -49,6 +49,14 @@ dist/
 # 敏感信息（密钥、凭据类一律忽略；需保留模板文件时用 ! 例外）
 .env
 .env.*
+*.pem
+# *.key 与 Keynote 文稿后缀相撞时，按 §4 用 ! 例外保留
+*.key
+id_rsa*
+id_ed25519*
+.credentials.json
+auth.json
+credentials.json
 
 # 系统文件
 .DS_Store
