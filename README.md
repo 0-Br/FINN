@@ -14,7 +14,7 @@ Urban flooding is a frequent and damaging natural hazard. FINN (Flood-Informed N
 
 - **研究区域 / Study area**：丹麦 Odense 市（3740×4273 像素，5m 分辨率）/ Odense, Denmark (3740×4273 pixels, 5m resolution)
 - **地形特征 / Topographic features**（6 个 / 6 channels）：地形凹凸度、不透水性、汇水面积、淹没水深、流向角 cos/sin / terrain convexity, imperviousness, catchment area, flood depth, flow direction cos/sin
-- **降雨事件 / Rainfall events**：53 场（43 场高强度 CDS + 10 场中等强度 NAT），提取 9 个统计特征作为输入 / 53 events (43 high-intensity CDS + 10 moderate NAT), with 9 statistical features extracted as input
+- **降雨事件 / Rainfall events**：53 场自然降雨事件（43 场高强度 + 10 场中等强度，均取自当地雨量计观测），提取 9 个统计特征作为输入 / 53 natural rainfall events (43 high-intensity + 10 moderate, all from local rain-gauge records), with 9 statistical features extracted as input
 - **标签数据 / Ground truth**：MIKE21 二维水动力模拟结果（水深分布）/ MIKE21 2D hydrodynamic simulation results (water depth distribution)
 
 数据未包含在本仓库中。训练数据应放置在 `configs/test.yaml` 中 `data_dir` 指定的路径下，目录结构如下：
